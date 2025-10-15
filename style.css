@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  line-height: 1.6;
+}
+
+header {
+  background: #161b22;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid #30363d;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.logo {
+  color: #58a6ff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #e6edf3;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #58a6ff;
+}
+
+#hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #1f2937, #0d1117);
+  text-align: center;
+  padding: 0 20px;
+}
+
+#hero h2 {
+  font-size: 2.5em;
+}
+
+#hero h2 span {
+  color: #58a6ff;
+}
+
+.cta {
+  margin-top: 20px;
+}
+
+.btn, .btn-outline {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  background: #58a6ff;
+  color: #0d1117;
+}
+
+.btn:hover {
+  background: #1f6feb;
+}
+
+.btn-outline {
+  border: 1px solid #58a6ff;
+  color: #58a6ff;
+}
+
+.btn-outline:hover {
+  background: #58a6ff;
+  color: #0d1117;
+}
+
+.section {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.section h2 {
+  color: #58a6ff;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.skills span {
+  display: inline-block;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px;
+  color: #c9d1d9;
+  transition: transform 0.3s;
+}
+
+.skills span:hover {
+  transform: scale(1.1);
+  background: #21262d;
+}
+
+.project {
+  background: #161b22;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  border-color: #58a6ff;
+}
+
+.contact a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.social-links a {
+  color: #58a6ff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #1f6feb;
+}
+
+footer {
+  background: #161b22;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #30363d;
+  font-size: 0.9em;
+}
